@@ -9,9 +9,18 @@ st.set_page_config(
     page_title="Nebenan",
     page_icon="📦")
 
+col1, col2, col3, col4, col5 = st.columns(5)
+with col5:
+    st.image('nebenan-logo.jpg', width=75)
 def page_home():
-    st.markdown('<h1 style="color: #CAE85D;">Nebenan</h1>', unsafe_allow_html=True)
-    st.markdown("""<h3 style="color: #FE9DE1;">Streamlit Learning Session</h3>""", unsafe_allow_html=True)
+    # st.markdown('<h1 style="color: #CAE85D;">Nebenan</h1>', unsafe_allow_html=True)
+    st.markdown("""
+    <h3>
+        <span style="color: #201649;">Welcome to the </span>
+        <span style="color: #FE9DE1;">Streamlit</span>
+        <span style="color: #201649;">Learning Session</span>
+    </h3>
+    """, unsafe_allow_html=True)
     st.markdown("""
             *Streamlit*: An open-source Python library that makes it easy to create interactive web apps for data science and machine learning projects.
 
