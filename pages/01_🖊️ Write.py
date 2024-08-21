@@ -1,7 +1,7 @@
 import streamlit as st
 
 # Example of st.title
-st.title("Streamlit Feature Showcase")
+st.title("⭐️ Streamlit Feature Showcase")
 st.code('st.title("Streamlit Feature Showcase")')
 
 # Example of st.header

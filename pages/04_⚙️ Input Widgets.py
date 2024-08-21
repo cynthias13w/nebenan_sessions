@@ -10,7 +10,7 @@ st.header("Buttons")
 st.code('''if st.button("Click Me"):
     st.write("Button was clicked!")''')
 if st.button("Click Me"):
-    st.write("Button was clicked!")
+    st.write("✅ Button was clicked!")
 
 # Example of st.download_button
 st.code('''st.download_button(
@@ -36,12 +36,12 @@ st.code('''with st.form(key='my_form'):
     st.text_input("Your Name")
     submit_button = st.form_submit_button("Submit")
     if submit_button:
-        st.write("Form submitted!")''')
+        st.write("✅ Form submitted!")''')
 with st.form(key='my_form'):
     st.text_input("Your Name")
     submit_button = st.form_submit_button("Submit")
     if submit_button:
-        st.write("Form submitted!")
+        st.write("✅ Form submitted!")
 
 # Example of st.link_button (Hypothetical)
 st.code('''st.markdown("[Link Button](https://example.com) [Click Here](https://example.com)")''')
@@ -56,9 +56,9 @@ st.header("Selections")
 
 # Example of st.checkbox
 st.code('''if st.checkbox("Check this box"):
-    st.write("Checkbox is checked!")''')
+    st.write("✅ Checkbox is checked!")''')
 if st.checkbox("Check this box"):
-    st.write("Checkbox is checked!")
+    st.write("✅ Checkbox is checked!")
 
 # Example of st.color_picker
 st.code('''color = st.color_picker("Pick A Color", "#FF0000")
