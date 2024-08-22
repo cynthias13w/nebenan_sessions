@@ -15,7 +15,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 st.markdown("""
-Streamlit can connect to Snowflake, enabling you to build apps that interact directly with your Snowflake data.
+Streamlit can connect to Snowflake, facilitating building apps that interact directly with Snowflake data.
 
 - **Query Snowflake Data**: Run SQL queries on Snowflake and visualize the results in Streamlit.
 - **Data Processing**: Combine Snowflake's data warehousing capabilities with Streamlit's app-building simplicity.
