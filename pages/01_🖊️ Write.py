@@ -1,8 +1,21 @@
 import streamlit as st
 
+# logo
+col1, col2, col3, col4, col5 = st.columns(5)
+with col5:
+    st.image('nebenan-logo.jpg', width=75)
+
+st.markdown("""
+<h2>
+    <span style="color: #201649;">How to display </span>
+    <span style="color: #FE9DE1;">text</span>
+    <span style="color: #201649;">?</span>
+</h2>
+""", unsafe_allow_html=True)
+
 # Example of st.title
 st.title("⭐️ Streamlit Feature Showcase")
-st.code('st.title("Streamlit Feature Showcase")')
+st.code('st.title("⭐️ Streamlit Feature Showcase")')
 
 # Example of st.header
 st.header("1. Headers and Subheaders")

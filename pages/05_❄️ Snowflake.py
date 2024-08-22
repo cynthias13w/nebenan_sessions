@@ -3,18 +3,28 @@ import os
 from snowflake.snowpark import Session
 import pandas as pd
 
+# logo
+col1, col2, col3, col4, col5 = st.columns(5)
+with col5:
+    st.image('nebenan-logo.jpg', width=75)
+
 st.snow()
 
 st.markdown("""
-## Integration with Snowflake
+<h2>
+    <span style="color: #201649;">Integration with </span>
+    <span style="color: #98CBD6;">Snowflake ❄️</span>
+</h2>
+""", unsafe_allow_html=True)
 
+st.markdown("""
 Streamlit can connect to Snowflake, enabling you to build apps that interact directly with your Snowflake data. This allows you to:
 
 - **Query Snowflake Data**: Run SQL queries on Snowflake and visualize the results in your Streamlit app.
 - **Data Processing**: Combine Snowflake's data warehousing capabilities with Streamlit's app-building simplicity.
 - **Secure Access**: Manage data access securely through Snowflake's user management and authentication.
 
-## Example: Snowflake Integration
+### Example:
 
 ```python
 import streamlit as st

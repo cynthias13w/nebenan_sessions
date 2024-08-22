@@ -3,6 +3,18 @@ import pandas as pd
 import numpy as np
 from datetime import datetime
 
+# logo
+col1, col2, col3, col4, col5 = st.columns(5)
+with col5:
+    st.image('nebenan-logo.jpg', width=75)
+    
+st.markdown("""
+<h2>
+    <span style="color: #201649;">How to use </span>
+    <span style="color: #FE9DE1;">widgets</span>
+    <span style="color: #201649;">?</span>
+</h2>
+""", unsafe_allow_html=True)
 # BUTTONS
 st.header("Buttons")
 

@@ -2,6 +2,11 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 
+# logo
+col1, col2, col3, col4, col5 = st.columns(5)
+with col5:
+    st.image('nebenan-logo.jpg', width=75)
+    
 st.markdown("""
 <h2>
     <span style="color: #201649;">How to display </span>
@@ -45,6 +50,7 @@ st.header("Metric")
 st.code('''st.metric(label="Temperature", value="70 °F", delta="1.2 °F")''')
 st.metric(label="Temperature", value="70 °F", delta="1.2 °F")
 st.divider()
+
 # Example of st.json
 st.header("Json")
 st.code('''sample_json = {

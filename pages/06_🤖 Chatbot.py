@@ -1,8 +1,17 @@
 import streamlit as st
 import random
 import time
+# logo
+col1, col2, col3, col4, col5 = st.columns(5)
+with col5:
+    st.image('nebenan-logo.jpg', width=75)
 
-st.title("Mood Booster Bot 🤖")
+st.markdown("""
+<h2>
+    <span style="color: #B5D622;">Mood Booster Bot 🤖 </span>
+</h2>
+""", unsafe_allow_html=True)
+
 
 # Initialize chat history
 if "messages" not in st.session_state:
