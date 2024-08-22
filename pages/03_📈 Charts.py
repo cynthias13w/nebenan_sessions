@@ -22,16 +22,19 @@ st.code('''chart_data = pd.DataFrame(
 )
 st.area_chart(chart_data)''')
 st.area_chart(chart_data)
+st.divider()
 
 # Example of st.bar_chart
 st.header("Bar Chart")
 st.code('''st.bar_chart(chart_data)''')
 st.bar_chart(chart_data)
+st.divider()
 
 # Example of st.line_chart
 st.header("Line Chart")
 st.code('''st.line_chart(chart_data)''')
 st.line_chart(chart_data)
+st.divider()
 
 # Example of st.map
 st.header("Map")
@@ -41,6 +44,7 @@ st.code('''map_data = pd.DataFrame({
 })
 st.map(map_data)''')
 st.map(map_data)
+st.divider()
 
 # Example of st.scatter_chart
 # st.header("st.scatter_chart")

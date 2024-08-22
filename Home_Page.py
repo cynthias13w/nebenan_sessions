@@ -1,8 +1,6 @@
 import streamlit as st
 from text import *
 
-import matplotlib.pyplot as plt
-import seaborn as sns
 import streamlit as st
 
 st.set_page_config(

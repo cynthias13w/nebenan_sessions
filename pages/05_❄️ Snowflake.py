@@ -1,4 +1,7 @@
 import streamlit as st
+import os
+from snowflake.snowpark import Session
+import pandas as pd
 
 st.snow()
 
@@ -32,3 +35,14 @@ data = cur.fetchall()
 # Display data in Streamlit
 st.write(data)
             """)
+
+# connection_parameters = {
+#     "account": os.environ.get('snowflake_account'), 
+#     "user": os.environ.get('snowflake_user'),
+#     "password": os.environ.get('snowflake_password'),
+#     }
+# session = Session.builder.configs(connection_parameters).create()
+# query=
+# result = session.sql(query)
+# data = result.collect()
+# df = pd.DataFrame(data)
