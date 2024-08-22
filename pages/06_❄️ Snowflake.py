@@ -1,7 +1,4 @@
 import streamlit as st
-import os
-from snowflake.snowpark import Session
-import pandas as pd
 
 # logo
 col1, col2, col3, col4, col5 = st.columns(5)
