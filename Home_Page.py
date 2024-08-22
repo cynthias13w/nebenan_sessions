@@ -19,14 +19,14 @@ def page_home():
     st.markdown("""
             *Streamlit*: An open-source Python library that makes it easy to create interactive web apps for data science and machine learning projects.
 
-            ## Why streamlit?
+            ### Why streamlit?
             - **Bridging the Gap:** Enables data scientists to build web apps without needing web developers.
             - **Simplifying Insight Sharing:** Move beyond static reports to dynamic, interactive apps.
             - **Rapid Prototyping:** Quickly create and test ideas with instant feedback.
             - **Lowering the Barrier to Entry:** Accessible to a wider audience, including non-programmers.
             - **Fostering Collaboration:** Encourages sharing and collaboration within the community.
 
-            ## Key Features
+            ### Key Features
 
             - **Simple**: Build web apps with just a few lines of Python.
             - **Interactive Widgets**: Easily add sliders, buttons, etc.
@@ -34,7 +34,7 @@ def page_home():
             - **Data Visualization**: Integrates with visualisation packages such as Matplotlib, Seaborn and Plotly.
             - **Easy Deployment**: Share apps with a link using Streamlit Cloud, whether they're standalone or connected to Snowflake for data integration.
 
-            ## Example: Simple App
+            #### Example: A Simple App
 
             ```python
             import streamlit as st
